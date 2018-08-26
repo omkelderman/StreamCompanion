@@ -47,6 +47,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSNEventSource", "plugins\M
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OsuMemoryEventSource", "plugins\OsuMemoryEventSource\OsuMemoryEventSource.csproj", "{1A6D2DC6-163E-4BF3-8CE3-51ACC38A4A67}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mp3Exporter", "plugins\mp3Exporter\mp3Exporter.csproj", "{C8239C9A-3B47-4EB8-BF04-AA6AF85D76EB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -295,6 +297,18 @@ Global
 		{1A6D2DC6-163E-4BF3-8CE3-51ACC38A4A67}.Remote debug|Any CPU.Build.0 = Release|Any CPU
 		{1A6D2DC6-163E-4BF3-8CE3-51ACC38A4A67}.Remote debug|x86.ActiveCfg = Release|Any CPU
 		{1A6D2DC6-163E-4BF3-8CE3-51ACC38A4A67}.Remote debug|x86.Build.0 = Release|Any CPU
+		{C8239C9A-3B47-4EB8-BF04-AA6AF85D76EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8239C9A-3B47-4EB8-BF04-AA6AF85D76EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8239C9A-3B47-4EB8-BF04-AA6AF85D76EB}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C8239C9A-3B47-4EB8-BF04-AA6AF85D76EB}.Debug|x86.Build.0 = Debug|Any CPU
+		{C8239C9A-3B47-4EB8-BF04-AA6AF85D76EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8239C9A-3B47-4EB8-BF04-AA6AF85D76EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8239C9A-3B47-4EB8-BF04-AA6AF85D76EB}.Release|x86.ActiveCfg = Release|Any CPU
+		{C8239C9A-3B47-4EB8-BF04-AA6AF85D76EB}.Release|x86.Build.0 = Release|Any CPU
+		{C8239C9A-3B47-4EB8-BF04-AA6AF85D76EB}.Remote debug|Any CPU.ActiveCfg = Release|Any CPU
+		{C8239C9A-3B47-4EB8-BF04-AA6AF85D76EB}.Remote debug|Any CPU.Build.0 = Release|Any CPU
+		{C8239C9A-3B47-4EB8-BF04-AA6AF85D76EB}.Remote debug|x86.ActiveCfg = Release|Any CPU
+		{C8239C9A-3B47-4EB8-BF04-AA6AF85D76EB}.Remote debug|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -316,6 +330,7 @@ Global
 		{9B64F5D5-5A53-44EB-9CBF-9C27391A9279} = {7357CB17-E9D7-493F-BC1B-354F717D7AA3}
 		{0BE726DB-D370-4D9D-988A-2B79AF562283} = {7357CB17-E9D7-493F-BC1B-354F717D7AA3}
 		{1A6D2DC6-163E-4BF3-8CE3-51ACC38A4A67} = {7357CB17-E9D7-493F-BC1B-354F717D7AA3}
+		{C8239C9A-3B47-4EB8-BF04-AA6AF85D76EB} = {7357CB17-E9D7-493F-BC1B-354F717D7AA3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {90CD718D-2503-4BBC-867D-E8EF9C9DBC77}
