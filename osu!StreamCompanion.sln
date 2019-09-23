@@ -67,6 +67,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcessMemoryDataFinder", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSocketDataSender", "plugins\WebSocketDataSender\WebSocketDataSender.csproj", "{6074BC0F-2C6A-485C-A5C4-5AEF3A3B8263}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".docs", ".docs", "{7861C48E-1F57-4475-B70A-F18183758F7B}"
+	ProjectSection(SolutionItems) = preProject
+		.docs\build.bat = .docs\build.bat
+		.docs\dev.bat = .docs\dev.bat
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
